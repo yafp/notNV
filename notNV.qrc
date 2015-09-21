@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/icon_Help.ico</file>
+        <file>images/icon_Settings.ico</file>
+        <file>images/icon_New.ico</file>
+        <file>images/icon_Folder.ico</file>
+        <file>images/icon_notNV_big.png</file>
+        <file>doc/CHANGELOG</file>
+        <file>images/icon_KeyESC.png</file>
+        <file>images/icon_KeyDEL.png</file>
+        <file>images/icon_KeyDOWN.png</file>
+        <file>images/icon_KeyENTER.png</file>
+        <file>images/icon_KeyF1.png</file>
+        <file>images/icon_KeyF2.png</file>
+        <file>images/icon_KeyTAB.png</file>
+        <file>images/icon_KeyUP.png</file>
+        <file>images/icon_notNV_big.ico</file>
+        <file>images/icon_notNV_big.icns</file>
+        <file>images/icon_Stats.ico</file>
+        <file>images/icon_KeyF5.png</file>
+        <file>images/icon_Save.ico</file>
+        <file>images/icon_Website.ico</file>
+        <file>images/icon_Credits.ico</file>
+        <file>images/icon_Update.ico</file>
+    </qresource>
+</RCC>

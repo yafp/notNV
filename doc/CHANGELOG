@@ -1,0 +1,338 @@
+
+               __   ___________   ____
+  ____   _____/  |_ \      \   \ /   /
+ /    \ /  _ \   __\/   |   \   Y   / 
+|   |  (  <_> )  | /    |    \     /  
+|___|  /\____/|__| \____|__  /\___/  Changelog 
+     \/                    \/         
+
+
+20110731.05 - minor changes (fidel)					
+###########
+- changed file-list & noteContent font from arial to helvetica
+- added statusbar message
+
+
+20110731.04 - relevancy (fidel)					
+###########
+- #72 feature | sort foundFiles by relevance
+
+
+20110731.03 - milestone 0.4 (fidel)					
+###########
+- moved version number to milestone 0.4 - More???
+
+
+20110731.02 - launchcounter (fidel)					
+###########
+- #70 feature | launchcounter
+- stats-tab: added spacers
+
+
+20110731.01 - minor changes (fidel)					
+###########
+- about-tab: Changed visitWebsite() target to http://macfidelity.github.com/notNV/
+- menubar: reorganized menubar
+- #69 feature | show new added text while using inAppEditing
+
+
+20110730.01 - update-check is working (fidel)					
+###########
+- #65 feature | check for update function
+
+
+20110729.04 - update-check step 3 (fidel)					
+###########
+- updatecheck now downloads an xml file and outputs the content as first test.
+- about-tab: now shows current stable version/milestone number.
+ 
+
+20110729.03 - cleanup (fidel)					
+###########
+- changed update-check-url to new github/notNV pages-branch url
+>> http://macfidelity.github.com/notNV/notNV_version_check.xml
+
+
+20110729.02 - cleanup (fidel)					
+###########
+- cleanup (removed xml again)
+
+
+20110729.01 - update-check step 2 (fidel)					
+###########
+- update-check improved - but still not ready
+
+
+20110728.02 - update-check step 1 (fidel)					
+###########
+- about-tab: added check-for-updates button - with dummy functionality
+
+
+20110728.01 - minor about-tab changes (fidel)					
+###########
+- about tab: added credits icon to button
+- about-tab: added website icon to button
+
+
+20110726.04 - more about-tab tweaks (fidel)					
+###########
+- #68 feature | about-tab: add license hint
+- #67 feature | about-tab: add show credits button
+- #66 feature | about-tab: add visit website button
+- removed app-description text
+
+
+20110726.03 - file extension filter (fidel)					
+###########
+- generateStats() is filtering for .txt now
+- find() is filtering for .txt now
+-> fxes #55 feature | file extension filter
+
+
+20110726.02 - key_down mac test  (fidel)					
+###########
+- did a small change in keypressed/key::down to test if we can fix #59
+....hell yeah "we" love special handling
+
+
+20110726.01 - generate stats on app launch & show timestamp (fidel)					
+###########
+- #62 - Feature | Generate stats on app-launch
+- cleanup window title mess. About tabnow shows builddate & milestone name if it is one - but window title itself is always the same.
+
+
+20110725.02 - minor changes (fidel)					
+###########
+- title back to default
+- ensure noteContent cursor is visible after loading file
+- #60 - added shortcut to save-note-button (defaul os-save keysequence)
+- #61 - about-tab: trying to use a monospace font if possible
+
+
+20110725.01 - cleanup (fidel)			MILESTONE 0.3			
+###########
+- cleanup 
+- milestone 0.3 title
+
+
+20110720.05 - save icon (fidel)			
+###########
+- added new icon for save button
+
+
+20110720.04 - cleanup (fidel)			
+###########
+- cleanup
+
+
+20110720.03 - show save-button if inappEditing is enabled & note changed (fidel)			
+###########
+- if note is loaded & in-app-editing is enabled we display a save button.
+- after saving the button is hidden again. 
+- results in fixing #54 feature | show need for save
+
+
+20110720.02 - show save-button if inappEditing is enabled (fidel)			
+###########
+- notNV notes tab now shows a save button of a note is loaded and inAppEditing is enabled. So we give a visual way - but we still dont check if he needs to save or not. 
+- if esc is pressed while being in notecontent we jump back to filelist
+- added third function of esc key to shortcuts tab
+
+
+20110720.01 - several noteContent & inappEditing related fixes (fidel)			
+###########
+- Key Esc now works as well if focus is in noteContent
+- resetNoteContent now disables noteContent again
+- noteContent is now disabled on app-start
+- noteContent gets enabled while loading a note to it
+- results in fixing #53 Bug | noteContent should be disabled ....
+
+
+20110719.05 - minor changes (fidel)			
+###########
+- directoryComboBox hidden from notes tab
+- and more bla
+
+
+20110719.04 - cleanup (fidel)			
+###########
+- well cleanup 
+
+
+20110719.03 - save note v0.1 (fidel)			
+###########
+- #31 Feature Request | in-app note editing
+a basic version of inAppEditing is working. Saving files is manually (via CTRL + S)
+
+
+20110719.02 - fixed shortcuts-tab layout (fidel)			
+###########
+- #50 bug | shortcuts-tab: images & texts belong inside the shortcuts groupbox - not outside
+
+
+20110719.01 - fixed stats-tab layout (fidel)			
+###########
+- #51 bug | put stats content into a groupbox
+
+
+20110718.03 - cleanup (fidel)			
+###########
+- removed useless crap
+
+
+20110718.02 - prepare InAppEditing (fidel)			
+###########
+- deleteNote() now checks state of checkbox - not conf file regarding the confirm dialog.
+- conf-tab: added dummy checkbox 'enable in-app-editing'
+- note-tab: noteContent gets toggles from read onlx to read write on checkbox 'enable in-app-editing'.
+!! Save function is missing - so we can edit notes - but changes are lost for sure.
+
+
+20110718.01 - stats-tab (fidel)			
+###########
+- stats-tab: added amount of notes
+- stats-tab: added average note title length
+- stats-tab: added longest note title
+- stats-tab: added shortest note title
+- stats-tab: added average lines
+- stats-tab: added average chars
+- stats-tab: added overall lines
+- stats-tab: added overallchars
+- results in: #34  Feature Request | add stats-tab
+
+
+20110717.09 - f5 icon for reload (fidel)			
+###########
+- #43 Feature | F5 - keybinding for existing reload function
+- shortcut-tab: added 5f icon & text
+
+
+20110717.08 - 5% of stats-tab (fidel)			
+###########
+- first steps for stats-tab (adding tab & dummy button ad new icon)
+
+
+20110717.07 - shortcuts-tab was missing f2 (fidel)			
+###########
+- shortcut-tab: added image & text for F2/Rename
+- added authors file to doc folder
+
+
+20110717.06 - sort file-list (fidel)			
+###########
+- #41 Feature | Sort table aka file-list
+
+
+20110717.05 - rename note (fidel)			
+###########
+- #2 Feature Request | Adding a rename note function (F2)
+- delete & rename works now via menu as well
+
+
+20110717.04 - reload & delete confirm dialog (fidel)			
+###########
+- #36 Feature Request | reload/rescan notes folder function
+- #29 Feature Request | Preference - Confirm note deletion or not
+
+
+20110717.03 - smallFonts (fidel)			
+###########
+- #28 Feature Request | conf - small or big text in file-list
+
+
+20110717.02 - date modified column (fidel)			
+###########
+- #30 Feature Request | size column vs date modified colum
+
+
+20110717.01 - cleanup (fidel)			MILESTONE 0.2
+###########
+- changed to milestone 0.2 window-title
+- shortcut-tab: changed layout to grid
+- #20 Feature Request | Tweak default text for new notes
+- #24 Public | cleanup, pack & upload public milestone 0.2
+
+
+20110716.03 - icon-test for ms and apple ...test later (fidel)	
+###########
+- added app-icon as .ico for windows
+- added notNV.rc to test windows icon
+- added app-icon as .icns (via png2icns as first test from linux)
+- added icon to notNV.pro file to test osx icon
+
+
+20110716.02 - menubar (fidel)	
+###########
+- #32 Feature Request | add optional menubar for gui/mouse focused ppl (via conf checkbox)
+
+
+20110716.01 - statusbar & shortcuts-icons (fidel)	
+###########
+- #38 Feature | use statusbar to inform user about actions / changes
+- #33 Feature | add key-images to shortcuts-tab
+
+
+20110715.03 - cleanup (fidel)	
+###########
+- cleanup to improve readability
+- small ui changes
+
+
+20110715.02 - conf-&shortcut-tab and way more small ui changes (fidel)	
+###########
+- conf-tab: added choose folder settings
+- conf-tab: added 3 dummy checkboxes
+- conf-tab: added save button from notes-tab to this one as it saves the config ;)
+- notes-tab: moved new-notesbutton next to magicField
+- notes-tab: create new note button gets en & disabled based on content of magicField
+- mainwindow: added statusbar at bottom of window
+- mainwindow: added new shortcuts-tab
+
+
+20110715.01 - about tab (fidel)			
+###########
+- about-tab: added app-icon to 
+- about-tab: added appText
+- about-tab: added changelog textbox
+- about-tab: added builddate & counter to appText
+- simplified window-title as about window shows builddate&counter now
+- .qrc: added doc/CHANGELOG to display it inside about-tab
+
+
+20110714.04 - workflow improvements (fidel)			
+###########
+- disable tabnavigation in file-list to ensure main-tab-navigation
+- fixed tab order of footer icons ->for entire notes-tab
+
+
+20110714.03 - main-window aka minimize & back to tabwidget (fidel)			
+###########
+- moved to mainwindow -> including minmize button
+- moved to tabwidget as main-design -> resulting in dummy conf/settings tab & dummy about tab
+
+
+20110714.02 - icon fix (fidel)			
+###########
+- notNV.qrc was missing main app icon after icon change/cleanup. Dont over-clean the source dude
+- changed qsettings name/path from yafp.de/notNV.conf to notNV/notNV.conf (~/.config/notNV/notNV.conf)
+
+
+20110714.01 - cleanup (fidel)			MILESTONE 0.1
+###########
+- changed to milestone 0.1 window-title
+- removed keypress return section & enabled slot @ magicField
+- removed keypress meta section - as it just doubled key_escape
+- changed table column 1 name from 'File name' to 'Name'
+- more general cleanup things (removing debug output etc)
+
+
+20110713.01 - cleanup (fidel)
+###########
+- prepare milestone 0.1
+- changed window-title in case code contains a milestone name
+- code cleanup
+
+
+20110712.02 - initial commit to github (fidel)
+###########
+- core-functions are working (search,create,delete)

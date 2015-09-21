@@ -1,0 +1,27 @@
+               __   ___________   ____
+  ____   _____/  |_ \      \   \ /   /
+ /    \ /  _ \   __\/   |   \   Y   / 
+|   |  (  <_> )  | /    |    \     /  
+|___|  /\____/|__| \____|__  /\___/   Readme
+     \/                    \/         
+
+
+About:
+######
+notNV[1] is a small and simple application to create & search notes - inspired by Notational Velocity[2]
+
+The project is based on Qt[3] and focused on Linux as main platform,
+while Apple & Microsoft operating systems "might" be supported as well in the future in case someone cares and wants to participate.
+
+Check the wiki[4] for more informations or consider the doc folder delivered with each download.
+
+In case you don't use github - feel free to contact me via email[5] 
+
+
+Links:
+######
+[1] http://notnv.yafp.de/
+[2] http://notational.net/
+[3] http://qt.nokia.com/products/
+[4] https://github.com/macfidelity/notNV/wiki
+[5] mailto: info AT yafp DOT de
